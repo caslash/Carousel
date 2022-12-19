@@ -12,6 +12,7 @@ struct CarouselApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AppData.shared)
         }
     }
 }
